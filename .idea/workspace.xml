@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af627d72-5c0e-415f-9b7a-f13271ac8b35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_8_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_2_0_37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_content_type_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_lang_tag_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_oauth2_oidc_sdk_9_43_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_5_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_14_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_14_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_24_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_5_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_client_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_resource_server_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_authorization_server_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_client_6_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_6_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_6_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_6_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring6_3_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/oauth2-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/java/com/ryans/Oauth2ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/java/com/ryans/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/java/com/ryans/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/java/com/ryans/controller/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/oauth2-resource.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/ryans/Oauth2ResourceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/ryans/config/JwtDecoderConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/ryans/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/ryans/config/OAuth2ResourceServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/ryans/config/SimpleAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/ryans/config/SimpleAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/ryans/controller/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/java/com/ryans/util/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-resource/src/main/resources/myjks.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/oauth2-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/ryans/Oauth2ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/ryans/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/ryans/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/ryans/controller/EndPointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/java/com/ryans/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/myjks.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/myjks.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/src/test/java/com/ryans/Oauth2ServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/com/ryans/Oauth2ServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/com/ryans/config/AuthorizationServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/com/ryans/config/SpringSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/com/ryans/controller/EndPointController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/com/ryans/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/myjks.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/myjks.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-server/target/test-classes/com/ryans/Oauth2ServerApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/02d34b42a3ee476fb50850304ab67017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/07ed5a9987284168aaba84295011035e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/085741a84fe04e2680f3cfe64800dbdb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/0c63b39584944f5c8dbdbf9057f6870a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/0cef25e0d2ea42078701a20a3d952f76_tisg0.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/0dc5544de5254654b194346a1430d34d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/0f9970055ebf46549b1a50ab05457b0c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/1697ae89e7f24d1b9e9c1199afb7ff8d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/188f00e36a6b4f599bb1ba7baca041d6_sunswarmforever.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/1989a46cabda4dd59282fd40ca23a3f9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/1HpBZUraMcR8ist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/1d3fa56ea68545d886666323ed2fc0b7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/20190918140012416.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/20190927151117521.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/20201124032511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/20210918025138.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/20230310025252.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/20230607014810.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/20230807043417.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/20230815023238.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/20230905113813.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/252d8b1f14e748a2b83398bf28000930_qq_44273429.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/299f7639fa8a4b7bb5c0f10b3ad730a9_www879319217com.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/2e203555c8ad4b44abfe138785ed249f_tu_wer.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/30ceefdfb3bf494fbc47b4b299a7ac07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/31ac8d9717dc4b9da55b9e6b051d537d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/35deed11baa94991bc9731614d76cf4d_weixin_43931625.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/3992bfe2b8b54084bc1702bf69b0cb27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/39d0b2a40c2642d0b7c2663ed1e703dd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/3acbdcefa64447e58ae657e46fa937ab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/3f53477e9ea64fcba742906cbe337bbe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/40cfbb1563de415caaba537a5311b4d3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/49551fc9e9af4000937f89293ed76f4c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/4bd50883a213407795a31d33d99b94d6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/4c177628333d4ffbb2533cc1d015b1a7_qq_57761637.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/51_create.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/51ad59846f604f35a1a09cef57d77187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/5355f043d8c14484a20311ed525d5f6c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/5f75da5667ab4f32bc9e23aa3e001b9c_feiyuchuixue.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/6398b03cdd88447eb654e934337d3045.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/6442aa9fc16e48d5b07a805642466ec8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/65f06fd90e0b4084bf8b6e6915ccf538.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/6760792432d94e0c93484ffd2f76d3ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/6834f3285a97460385e9e04a81b7ecd8_qq_43167136.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/6b062b3c6bbb416591a1f2538094c9ce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/6e0848f9269744b2ac5b9588ac3db6b5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/6fab123529854cc2be265cb2cea76a38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/78f950e7f1ab47ff8d4c30a3e8034b54_2301_77778490.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/7a89db3c5b024330b9038b0198b3370b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/7c15c0e2af1141c98b2394c379bc170d.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/7c8253333f6749e79176e80318186017_weixin_44041700.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/86ad79748c724181911b2bfa314ab593_weixin_57813136.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/87376949dc1548e68ed0a119623fa11e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/8d5ad76f2acb4838a183b19bb6e72d62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/9097605ce978458494c59bc60d07a3b7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/9213fbf3517e4cc3876efa7c58e19d3e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/9af8a34c3bdb4cd4a14eeeca747c3223.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/9d0f88b038d8401ebea62f63192e36cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/9dc92368339247a4ad4e572da8e3991c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/MathJax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/a1e455874ff94963828464573d49add6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/a6b66b2f2ab847e39d81ad6a6b62671a_weixin_52372189.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/af0207f83a8649039a862a0c54fe54fb_liu289747235.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/apiaccept" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/articleReadEyes2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/atom-one-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/auto_dup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/axios-83fa28cedf.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/b343c8fd459946c5ae7f2050ce201c62_m0_64128218.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/b69a7a7c5b0947afba1659f13ce6576c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/bafae244f03c4871a2f94751eb2b084d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/baidu-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/blog5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/blog_code-01256533b5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/btnGuideSide1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/c09553c106974b2d9070a9d0f477f904.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/c180c4b4119942a38baf12154a61d190.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/c1b11e67947444be904de9f0cc83f538.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/c2bed48b9cf84c3fa73874076220e853.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/ce6f37eaedba4bb4a6e03830d91bad62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/cffec7d321004b98b91dbac286ffc82c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/chart-3456820cac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/chizhiyiheng@240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/ck_htmledit_views-dc4a025e85.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/closeBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/closeBt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/closeQuestion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/collection-box.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/collection-box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/collectionCloseWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/column-3911b0dc26.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/commentArrowDownWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/commentArrowLeftWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/commentCodeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/commentEmotionIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/commentLikeActive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/commentLikeHover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/commentLikeWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/commentLookMore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/commentReward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/common-761bd8deaf.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/copyright.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/csdn-footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/csdn-footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/csdn-login-box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/csdn-notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/csdn-toolbar-default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/csdn-toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/d08ef42cd06a445c8f82fedcf0798a0f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/d12b8e2f8f1548468749dcc48debb328.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/d1813bff99ef4f9c9c925eb9171a95a9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/d77dc729b54d4950b841b661555699f4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/da1597976bce41869210a9b70ac8977c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/default.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/default.jpg!2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/detail-62ade3674a.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/detail_enter-e7d5e741b1.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/ds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/e078e585768a42f8b004e50846e5f88d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/e95c27074e134c709fd2461c06f54285.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/e97a4249f6084c1fa41353c18ea9eb0f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/ed512f2456644480a7cf57272315007a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/edit_copy_code-2d3931414f.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/f21c6cf57f3e485a86851ff62e49d3f8_weixin_61557632.jpg!1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/f6c1b0d2474044acb55578dd2ab66a04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/fanhuidingbucopy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/fengxiangxiaobing@240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/fenxiangdaren@240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/fenxiangxuetu@240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/hm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/html2canvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/iconHideDirectory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/iconHideSide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/iconPark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/iconRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/iconShowDirectory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/iconShowSide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/iconSideBeta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/jingdong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/kdoc_html_views-1a98987dfd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/markdown_views-98b95bb57c.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/nerCloseWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newArrowDown1White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newCollectActive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newCollectBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newComment2021Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newCommentReplyWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newHeart2021Active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newHeart2021Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newRewardBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newShareBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newUnHeart2021Active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newUnHeart2021Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newUpTime2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newWeiXin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/newZhiFuBao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/nocErtification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/order-payment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/order-payment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/pay-help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/pay-time-out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/pc_wap_common-be82269d23.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/pc_wap_commontools-094b8ec121.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/pc_wap_highlight-8defd55d6e.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/push(1).js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/qixiebiaobing4@240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/qrcode-7c90a92189.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/qrcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/quoteClose1White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/readCountWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/recharge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/sandalstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/saved_resource" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/saved_resource(1)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/saved_resource(2)" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/side-toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/side-toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/skin-sea-d3a08c2048.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/style-c216769e99.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/tobarCollect2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/tobarCollectionActive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/tobarCollectionActive2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/tobarThumbUpactive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-accusation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-accusation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-medal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-medal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-ordercart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-ordertip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-ordertip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/user-tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/xinxiu@240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/zhifubao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2_files/zrt_lookup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/SSOClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/dto/Oauth2AccessTokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/handler/AccessDeniedHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/handler/AuthenticationEntryPointImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/util/ServletUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/util/result/IResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/util/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/java/com/ryans/util/result/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/resources/static/callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/sso-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/SSOClientApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/dto/Oauth2AccessTokenDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/handler/AccessDeniedHandlerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/handler/AuthenticationEntryPointImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/util/ServletUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/util/result/IResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/util/result/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/com/ryans/util/result/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/static/callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso-client/target/classes/static/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/oauth2-resource/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sso-client/src/main/java/com/ryans/dto/Oauth2AccessTokenDto.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sso-client/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Data\.m2\repository" />
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Vyyf6Qh7KgNuWrW6MADb6MoR7v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.16125" />
+    <property name="project.structure.side.proportion" value="0.14084506" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code-test\MyTestSpring\spring-security\my-security-oauth2" />
+      <recent name="E:\code-test\MyTestSpring\spring-security\my-security-oauth2\oauth2-client" />
+      <recent name="E:\code-test\MyTestSpring\spring-security\my-security-oauth2\oauth2-resource" />
+      <recent name="E:\code-test\MyTestSpring\spring-security\my-security-oauth2\sso-client" />
+      <recent name="E:\code\java\study\MyTest\SpringSecurity\my-security-oauth2\sso-client\src\main\java\com\ryans\util" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ryans" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SSOClientApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oauth2-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ryans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryans.Oauth2ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ResourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oauth2-resource" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ryans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryans.Oauth2ResourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Oauth2ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oauth2-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryans.Oauth2ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSOClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sso-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ryans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ryans.SSOClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Oauth2ServerApplication" />
+      <item itemvalue="Spring Boot.Oauth2ClientApplication" />
+      <item itemvalue="Spring Boot.Oauth2ResourceApplication" />
+      <item itemvalue="Spring Boot.SSOClientApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SSOClientApplication" />
+        <item itemvalue="Spring Boot.Oauth2ClientApplication" />
+        <item itemvalue="Spring Boot.Oauth2ResourceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1987705" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af627d72-5c0e-415f-9b7a-f13271ac8b35" name="Default Changelist" comment="" />
+      <created>1695822714193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695822714193</updated>
+      <workItem from="1695822716217" duration="6870000" />
+      <workItem from="1695906669444" duration="11294000" />
+      <workItem from="1696430914906" duration="3452000" />
+      <workItem from="1696600058937" duration="4813000" />
+      <workItem from="1696648481044" duration="342000" />
+      <workItem from="1696648853850" duration="8507000" />
+      <workItem from="1696669373429" duration="7808000" />
+      <workItem from="1696728506950" duration="1222000" />
+      <workItem from="1696734977331" duration="1000000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sso-client/src/main/java/com/ryans/controller/AuthController.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

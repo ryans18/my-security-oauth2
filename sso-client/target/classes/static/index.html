@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        function ssoLogin() {
+            const clientId = "sso_client";
+            const redirectUri = encodeURIComponent("http://127.0.0.1:8080/callback.html");  // 如果url里有参数，则需要使用encodeURIComponent
+            const responseType = "code"; // 1) 授权码模式。对应code
+            window.location.href = "http://127.0.0.1:9000/oauth2/authorize?client_id=" + clientId
+                + "&redirect_uri=" + redirectUri
+                + "&response_type=" + responseType;
+        }
+        // 页面加载时执行
+        $(function () {
+            const accessToken = localStorage.getItem("ACCESS-TOKEN");
+            // 情况一：未登录
+            if (!accessToken) {
+                $("#noLoginDiv").css("display", "block");
+                return
+            }
+            // 情况二：已登录
+            $("#yesLoginDiv").css("display", "block");
+            $("#accessTokenSpan").html(accessToken);
+            // 获得登录用户的信息
+            /*$.ajax({
+                url: "http://localhost:8080/user/get",
+                method: "GET",
+                headers: {
+                    "Authentication": "Bearer" + accessToken
+                },
+                success: function (result) {
+                    if (result.code !== 0) {
+                        alert("获得个人信息失败，原因：" + result.msg);
+                        return;
+                    }
+                    $("#nicknameSpan").html(result.data.nickname);
+                }
+            })*/
+        })
+    </script>
+</head>
+<style>
+    body {
+        border-radius: 20px;
+        height: 350px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50% );
+    }
+</style>
+<body>
+<!--情况一： 未登录 1）跳转 ruoyi-vue-pro 的SSO登录页-->
+<div id="noLoginDiv" style="display: none">
+    您未登录，点击 <a href="#" onclick="ssoLogin()">跳转 </a> SSO单点登录
+</div>
+<!--情况二：已登录 1）展示用户信息 2）刷新访问令牌； 3）退出登录-->
+<div id="yesLoginDiv" style="display: none">
+    您已登录! <button onclick="logout()">退出登录</button>
+    昵称：<span id="nicknameSpan"> 加载中...</span> <button onclick="updateNickname()">修改昵称</button>
+    访问令牌：<span id="accessTokenSpan"> 加载中...</span><button onclick="refreshToken()">刷新令牌</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(function () {
+            // 获得code 授权码
+            const code = $.getUrlParam('code');
+            if (!code) {
+                alert("获取不到 code 参数，请排查")
+                return;
+            }
+            // 提交
+            const redirectUri = "http://127.0.0.1:8080/callback.html"  // index中配置的url
+            $.ajax({
+                url: "http://127.0.0.1:8080/auth/login-by-code?code=" + code + "&redirectUri=" + redirectUri,
+                method: "POST",
+                success: function (result) {
+                    if (result.code !== 200) {
+                        alert("获取访问令牌失败，原因：" + result.msg)
+                        return;
+                    }
+                    alert("获得访问令牌成功！跳转回首页")
+                    // 设置到localStorage 中
+                    localStorage.setItem("ACCESS-TOKEN", result.data.access_token);
+                    localStorage.setItem("REFRESH-TOKEN", result.data.refresh_token);
+                    // 跳转回首页
+                    window.location.href = "/index.html";
+                }
+            })
+        })
+        //用于取路径上面传过来的值
+        $.getUrlParam = function getUrlParam(name) {
+
+            // 构造一个含有目标参数的正则表达式对象
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+
+            // 匹配目标参数
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null)
+                return unescape(r[2]);
+            return null; // 返回参数值
+        }
+    </script>
+</head>
+<body>
+正在使用 code 授权码，进行accessToken 访问令牌的获取
+</body>
+</html>
